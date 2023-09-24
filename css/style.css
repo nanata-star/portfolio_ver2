@@ -83,6 +83,7 @@ letter-spacing: var(--letterspacing);
 #header {
 	position: relative;
 	height: 100vh;
+	background-image: url(./img/);;
 }
 
 /* ハンバーガー */
