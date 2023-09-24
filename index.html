@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>NANA TAIRA Portfolio</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+  <link rel="stylesheet" href="./css/hamburgers.css">
+
+  <!-- font -->
+  <link rel="stylesheet" href="https://use.typekit.net/mko2kbg.css">
+  <script>
+    (function (d) {
+      var config = {
+        kitId: 'lsn6kvm',
+        scriptTimeout: 3000,
+        async: true
+      },
+        h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+    })(document);
+  </script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.6.2/dist/simpleParallax.min.js"></script>
+
+</head>
+<body id="body">
+  <!-- ローディング画面 -->
+  <div id="splash">
+    <div id="splash_logo">
+      <img src="./img/logo406x226.png" alt="ロゴ画像" class="fadeUp">
+    </div>
+  </div>
+
+  <header id="header">
+    <div class="main-visual">
+      <!-- 動画背景／pc、タブレット用 -->
+      <h1><img src="./img/logo-title02.webp" alt="ロゴマーク"></h1>
+      <div id="bg-video-area">
+        <video id="bg-video" src="./img/PF-heroVideo1.mp4" autoplay muted playsinline loop>
+      </div>
+      </video>
+      <!-- 動画背景／スマホ用 -->
+      <div class="bg-video-sp"></div>
+
+    </div>
+    <div class="nav-wrap">
+      <div class="nav-flex container">
+        <div class="header-logo">
+          <a href="index.html"><img src="./img/logo406x226.png" alt="ロゴマーク"></a>
+        </div>
+        <nav id="l-nav">
+          <ul>
+            <!-- flex -->
+            <li><a href="#webdesign">#Web Design</a></li>
+            <li><a href="#graphic">#Grapfic</a></li>
+            <li><a href="#comic">#Comic</a></li>
+            <li><a href="#video">#Video</a></li>
+            <li><a href="#profile">#Profile</a></li>
+            <li><a href="#contact">#Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <div class="hm-wrap">
+      <!-- レスポンシブ用ハンバーガーメニュー -->
+      <button class="hamburger hamburger--squeeze" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner">
+          </span>
+        </span>
+      </button>
+      <!-- ハンバーガーメニューリスト -->
+      <nav class="hm-nav">
+        <div class="hm-logo">
+          <img src="./img/logo406x226.png" alt="ロゴマーク">
+        </div>
+        <ul>
+          <li><a href="#body">トップ</a></li>
+          <li><a href="#webdesign">#Web Design</a></li>
+          <li><a href="#graphic">#Grapfic</a></li>
+          <li><a href="#comic">#Comic</a></li>
+          <li><a href="#profile">#Profile</a></li>
+          <li><a href="#contact">#Contact</a></li>
+
+        </ul>
+      </nav>
+    </div>
+
+  </header>
+
+  <main>
+    <!-- Web Design -->
+    <section id="webdesign" class="section container">
+
+      <h2>#Web Design</h2>
+      <div class="section-detail web-design">
+        <dl>
+          <!-- flex -->
+          <dt><a href="#web-site">#Web Site</a></dt>
+          <dd>コーディングの学習を目的として制作したサイトです</dd>
+          <dt><a href="#web-comp">#Web Comp</a></dt>
+          <dd>WEBデザインの学習を目的として制作したデザインカンプです</dd>
+          <dt><a href="#web-item">#Web Design Item</a></dt>
+          <dd>ロゴやバナーなど、WEBサイトに用いられるもののデザインです</dd>
+        </dl>
+      </div>
+
+      <div class="contents-wrap">
+        <h3 id="web-site">#Web Site</h3>
+
+        <div class="contents">
+          <ul class="grid-2">
+            <!-- web site -->
+
+            <li class="non-modal">
+              <a href="http://nattara.html.xdomain.jp/wagokoro/" target="_blank">
+                <img src="./img/wagokoro-tn.webp" alt="ウェブサイトのサムネイル">
+                <p class="caption">#１カラム　#縦書き　#レスポンシブ対応　#ハンバーガーメニュー　#フェードインアニメ（jQuery）　#スクロールボタン（jQuery）</p>
+                <div class="caption-bg"></div>
+              </a>
+            </li>
+
+            <li class="non-modal">
+              <a href="https://nanataira.com/herb/" target="_blank">
+                <img src="./img/herbKitchin-tn.webp" alt="ウェブサイトのサムネイル">
+                <p class="caption">#ヘッダー画像の合成（Ps）　#テキストの回り込み</p>
+                <div class="caption-bg"></div>
+              </a>
+            </li>
+
+            <li class="non-modal">
+              <a href="https://nanataira.com/season/" target="_blank">
+                <img src="./img/season-tn.webp" alt="ウェブサイトのサムネイル">
+                <p class="caption">#マルチページ　#google fontの導入　#ホバーアニメーション</p>
+                <div class="caption-bg"></div>
+              </a>
+            </li>
+
+            <li class="non-modal">
+              <a href="https://nanataira.com/ishigaki/" target="_blank">
+                <img src="./img/ishigaki-tn.webp" alt="ウェブサイトのサムネイル">
+                <p class="caption">#１カラム　#タイトルの装飾</p>
+                <div class="caption-bg"></div>
+              </a>
+            </li>
+
+
+
+          </ul>
+
+          <h3 id="web-comp">#Web Comp</h3>
+          <ul class="grid-2">
+            <!-- web comp/ajax -->
+
+            <!-- wc-01 -->
+            <li class="modal-open" data-target="modal-wc-01">
+              <img src="./img/Harmonia-pc.webp" alt="サムネイル画像">
+              <p class="caption">#１カラム　#ロゴデザイン　#レスポンシブデザイン　#地図制作</p>
+              <div class="caption-bg"></div>
+            </li>
+            <div id="modal-wc-01" class="modal-container">
+              <div class="modal-body">
+                <div class="modal-content wc">
+                  <div class="modal-inner">
+                    <div class="modal-close">×</div>
+
+                    <div id="wc-01"></div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- wc-02 -->
+            <li class="modal-open" data-target="modal-wc-02">
+              <img src="./img/cafe_haleine.webp" alt="サムネイル画像">
+              <p class="caption">#１カラム　#画像切り抜き（Ps）　#ロゴデザイン</p>
+              <div class="caption-bg"></div>
+            </li>
+            <div id="modal-wc-02" class="modal-container">
+              <div class="modal-body">
+                <div class="modal-content wc">
+                  <div class="modal-inner">
+                    <div class="modal-close">×</div>
+                    <div id="wc-02"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- wc-03 -->
+            <li class="modal-open" data-target="modal-wc-03">
+              <img src="./img/TechEdge.webp" alt="サムネイル画像">
+              <p class="caption">#１カラム　#画像切り抜き（Ps）#ロゴデザイン</p>
+              <div class="caption-bg"></div>
+            </li>
+            <div id="modal-wc-03" class="modal-container">
+              <div class="modal-body">
+                <div class="modal-content wc">
+                  <div class="modal-inner">
+                    <div class="modal-close">×</div>
+                    <div id="wc-03"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+          </ul>
+
+
+          <div class="contents">
+            <!-- grid/3colmns -->
+            <h3 id="web-item">#Web Design Item</h3>
+
+            <ul class="grid-3">
+              <!-- wi-01 -->
+              <li class="modal-open wi-tn" data-target="modal-wi-01">
+                <img src="./img/wagokoro-banner01.png" alt="サムネイル画像"></li>
+              <div id="modal-wi-01" class="modal-container">
+                <div class="modal-body">
+                  <div class="modal-content">
+                    <div class="modal-inner web-item">
+                      <div class="modal-close">×</div>
+                      <div id="wi-01"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- wi-02 -->
+              <li class="modal-open wi-tn" data-target="modal-wi-02">
+                <img src="./img/wagokoro-banner02.png" alt="サムネイル画像"></li>
+              <div id="modal-wi-02" class="modal-container">
+                <div class="modal-body">
+                  <div class="modal-content graphic">
+                    <div class="modal-inner web-item">
+                      <div class="modal-close">×</div>
+                      <div id="wi-02"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- wi-04 -->
+              <li class="modal-open wi-tn" data-target="modal-wi-04">
+                <img src="./img/tea-banner01.png" alt="サムネイル画像"></li>
+              <div id="modal-wi-04" class="modal-container">
+                <div class="modal-body">
+                  <div class="modal-content graphic">
+                    <div class="modal-inner web-item">
+                      <div class="modal-close">×</div>
+                      <div id="wi-04"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- wi-03 -->
+              <li class="modal-open wi-tn" data-target="modal-wi-03">
+                <img src="./img/wagokoro-banner03.png" alt="サムネイル画像">
+              </li>
+              <div id="modal-wi-03" class="modal-container">
+                <div class="modal-body">
+                  <div class="modal-content graphic">
+                    <div class="modal-inner web-item">
+                      <div class="modal-close">×</div>
+                      <div id="wi-03"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- wi-05 -->
+              <li class="modal-open wi-tn" data-target="modal-wi-05">
+                <img src="./img/tea-banner02.png" alt="サムネイル画像">
+              </li>
+              <div id="modal-wi-05" class="modal-container">
+                <div class="modal-body">
+                  <div class="modal-content graphic">
+                    <div class="modal-inner web-item">
+                      <div class="modal-close">×</div>
+                      <div id="wi-05"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+            </ul>
+          </div>
+    </section>
+
+
+    <!-- Graphic -->
+    <section id="graphic" class="section container">
+
+      <h2>#Graphic</h2>
+      <p class="section-detail">PhotoshopやIllustlatorなどを用いたグラフィックデザインです</p>
+
+      <div class="contents-wrap">
+        <h3 id="recall-card">#歯科医院のリコールカード</h3>
+
+        <div class="contents">
+          <!-- grid/3colmns -->
+          <ul class="grid-3">
+
+            <!-- g-01 -->
+            <li class="modal-open" data-target="modal-g-01">
+              <img src="./img/recallcard1.webp" alt="リコールカードの画像">
+
+            </li>
+            <div id="modal-g-01" class="modal-container">
+              <div class="modal-body">
+                <div class="modal-content">
+                  <div id="g-01">
+                    <div class="modal-inner">
+                      <div class="modal-close">×</div>
+                      <h4>リコールカード１</h4>
+                      <div class="detail-img graphic">
+                        <a href="./img/recallcard1.webp" target="_blank"><img src="./img/recallcard1.webp" alt="リコールカードの画像"></a>
+                        <p>画像が印象的でありながら、すっきりと見やすいデザインです。</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- g-02 -->
+            <li class="modal-open" data-target="modal-g-02">
+              <img src="./img/recallcard2.webp" alt="リコールカードの画像">
+
+            </li>
+            <div id="modal-g-02" class="modal-container">
+              <div class="modal-body">
+                <div class="modal-content">
+                  <div id="g-02">
+                    <div class="modal-inner">
+                      <div class="modal-close">×</div>
+                      <h4>リコールカード２</h4>
+                      <div class="detail-img graphic">
+                        <a href="./img/recallcard2.webp" target="_blank"><img src="./img/recallcard2.webp" alt="リコールカードの画像"></a>
+                        <p>高級感のある印象のデザインです。</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- g-03 -->
+            <li class="modal-open" data-target="modal-g-03">
+              <img src="./img/recallcard3.webp" alt="リコールカードの画像">
+
+            </li>
+            <div id="modal-g-03" class="modal-container">
+              <div class="modal-body">
+                <div class="modal-content">
+                  <div id="g-03">
+                    <div class="modal-inner">
+                      <div class="modal-close">×</div>
+                      <h4>リコールカード３</h4>
+                      <div class="detail-img graphic">
+                        <a href="./img/recallcard3.webp" target="_blank"><img src="./img/recallcard3.webp" alt="リコールカードの画像"></a>
+                        <p>可愛らしいキャラクターを用いたりと、子供向けに安心感を抱かせるデザインです。</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </ul>
+
+          <h3 id="clinic-card">#歯科医院の診察券</h3>
+          <ul class="grid-4">
+            <!-- g-04 -->
+            <li class="modal-open" data-target="modal-g-04">
+              <img src="./img/cliniccard1.webp" alt="診察券のデザインの画像">
+
+            </li>
+            <div id="modal-g-04" class="modal-container">
+              <div class="modal-body">
+                <div class="modal-content">
+                  <div id="g-04">
+                    <div class="modal-inner">
+                      <div class="modal-close">×</div>
+                      <h4>診察券１</h4>
+                      <div class="detail-img graphic">
+                        <a href="./img/cliniccard1.webp" target="_blank"><img src="./img/cliniccard1.webp" alt="診察券のデザインの画像"></a>
+                        <p>診療時間を目立たせたデザインです。</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- g-05 -->
+            <li class="modal-open" data-target="modal-g-05">
+              <img src="./img/cliniccard2.webp" alt="診察券のデザインの画像">
+
+            </li>
+            <div id="modal-g-05" class="modal-container">
+              <div class="modal-body">
+                <div class="modal-content">
+                  <div id="g-05">
+                    <div class="modal-inner">
+                      <div class="modal-close">×</div>
+                      <h4>診察券２</h4>
+                      <div class="detail-img graphic cliniccard">
+                        <a href="./img/cliniccard2.webp" target="_blank"><img src="./img/cliniccard2.webp" alt="診察券のデザインの画像"></a>
+                        <p>キャラクターを大きく配置し、子供に安心感を抱かせるデザインです。</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- g-06 -->
+            <li class="modal-open" data-target="modal-g-06">
+              <img src="./img/cliniccard3.webp" alt="診察券のデザインの画像">
+
+            </li>
+            <div id="modal-g-06" class="modal-container">
+              <div class="modal-body">
+                <div class="modal-content">
+                  <div id="g-06">
+                    <div class="modal-inner">
+                      <div class="modal-close">×</div>
+                      <h4>診察券３</h4>
+                      <div class="detail-img graphic cliniccard">
+                        <a href="./img/cliniccard3.webp" target="_blank"><img src="./img/cliniccard3.webp" alt="診察券のデザインの画像"></a>
+                        <p>鮮やかな黄緑色の存在感のあり、親しみを感じさせられるデザインです。</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- g-07 -->
+            <li class="modal-open" data-target="modal-g-07">
+              <img src="./img/cliniccard4.webp" alt="診察券のデザインの画像">
+
+            </li>
+            <div id="modal-g-07" class="modal-container">
+              <div class="modal-body">
+                <div class="modal-content">
+                  <div id="g-07">
+                    <div class="modal-inner">
+                      <div class="modal-close">×</div>
+                      <h4>診察券４</h4>
+                      <div class="detail-img graphic cliniccard">
+                        <a href="./img/cliniccard4.webp" target="_blank"><img src="./img/cliniccard4.webp" alt="診察券のデザインの画像"></a>
+                        <p>高級感のある、洗練された医院を彷彿とさせるデザインです。</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- g-08 -->
+            <li class="modal-open" data-target="modal-g-08">
+              <img src="./img/cliniccard5.webp" alt="診察券のデザインの画像">
+
+            </li>
+            <div id="modal-g-08" class="modal-container">
+              <div class="modal-body">
+                <div class="modal-content">
+                  <div id="g-08">
+                    <div class="modal-inner">
+                      <div class="modal-close">×</div>
+                      <h4>診察券５</h4>
+                      <div class="detail-img graphic cliniccard">
+                        <a href="./img/cliniccard5.webp" target="_blank"><img src="./img/cliniccard5.webp" alt="診察券のデザインの画像"></a>
+                        <p>老若男女、誰からも受け入れられるデザインです。</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- g-09 -->
+            <li class="modal-open" data-target="modal-g-09">
+              <img src="./img/cliniccard6.webp" alt="診察券のデザインの画像">
+
+            </li>
+            <div id="modal-g-09" class="modal-container">
+              <div class="modal-body">
+                <div class="modal-content">
+                  <div id="g-09">
+                    <div class="modal-inner">
+                      <div class="modal-close">×</div>
+                      <h4>診察券６</h4>
+                      <div class="detail-img graphic cliniccard">
+                        <a href="./img/cliniccard6.webp" target="_blank"><img src="./img/cliniccard6.webp" alt="診察券のデザインの画像"></a>
+                        <p>１色刷りを想定。歯のシルエットがよく目立つデザインです。</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- g-10 -->
+            <li class="modal-open" data-target="modal-g-10">
+              <img src="./img/cliniccard7.webp" alt="診察券のデザインの画像">
+
+            </li>
+            <div id="modal-g-10" class="modal-container">
+              <div class="modal-body">
+                <div class="modal-content">
+                  <div id="g-10">
+                    <div class="modal-inner">
+                      <div class="modal-close">×</div>
+                      <h4>診察券７</h4>
+                      <div class="detail-img graphic cliniccard">
+                        <a href="./img/cliniccard7.webp" target="_blank"><img src="./img/cliniccard7.webp" alt="診察券のデザインの画像"></a>
+                        <p>可愛らしいキャラクターのいる、柔らかい印象のデザインです。</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </ul>
+
+          <h3 id="nyc">#カード</h3>
+          <ul class="grid-2">
+            <!-- nyc-01 -->
+            <li class="modal-open" data-target="modal-nyc-01">
+              <img src="./img/newyear-card.webp" alt="">
+            </li>
+            <div id="modal-nyc-01" class="modal-container">
+              <div class="modal-body">
+                <div class="modal-content">
+                  <div id="nyc-01">
+                    <div class="modal-inner">
+                      <div class="modal-close">×</div>
+                      <h4>ウサギのいる和風な年賀状</h4>
+                      <div class="detail-img graphic">
+                        <a href="./img/newyear-card.webp" target="_blank"><img src="./img/newyear-card.webp" alt=""></a>
+                        <p>背景の赤とウサギの白のコントラストが美しく、お正月のめでたさを感じられるデザインです。</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- nyc-02 -->
+            <li class="modal-open" data-target="modal-nyc-02">
+              <img src="./img/newyear-card2.webp" alt="">
+            </li>
+            <div id="modal-nyc-02" class="modal-container">
+              <div class="modal-body">
+                <div class="modal-content">
+                  <div id="nyc-02">
+                    <div class="modal-inner">
+                      <div class="modal-close">×</div>
+                      <h4>ウサギのクリスマスカード</h4>
+                      <div class="detail-img graphic">
+                        <a href="./img/newyear-card2.webp" target="_blank"><img src="./img/newyear-card2.webp" alt=""></a>
+                        <p>ブレた手描きのような線描に味わいのある、ユーモアを感じさせるデザインです。</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </ul>
+
+          <h3 id="line-stamp">#LINEスタンプ、絵文字</h3>
+          <ul class="grid-2">
+            <!-- gd-01 -->
+            <li class="modal-open" data-target="modal-gd-01">
+              <img src="./img/shiburashi-stamp.webp" alt="">
+            </li>
+            <div id="modal-gd-01" class="modal-container">
+              <div class="modal-body">
+                <div class="modal-content wc line">
+                  <div id="gd-01"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- gd-02 -->
+            <li class="modal-open" data-target="modal-gd-02">
+              <img src="./img/shiburashi-emoji.webp" alt="">
+            </li>
+            <div id="modal-gd-02" class="modal-container">
+              <div class="modal-body">
+                <div class="modal-content wc line">
+                  <div id="gd-02"></div>
+                </div>
+              </div>
+            </div>
+
+
+          </ul>
+
+
+
+        </div>
+    </section>
+
+    <!-- Comic -->
+    <section id="comic" class="section container">
+
+      <h2>#Comic</h2>
+      <p class="section-detail">オリジナルストーリーのコミックです。</p>
+
+      <div class="contents-wrap">
+        <h3 id="seka-chou">#世界は腸を中心にまわってる</h3>
+
+        <div class="contents">
+          <!-- grid/3colmns -->
+          <ul class="grid-4">
+
+            <!-- c-01 -->
+            <li class="modal-open" data-target="modal-c-01">
+              <img src="./img/comic-01.webp" alt="コミックの画像">
+            </li>
+            <div id="modal-c-01" class="modal-container">
+              <div class="modal-body">
+                <div class="modal-content">
+                  <div id="c-01">
+                    <div class="modal-content">
+                      <div class="modal-inner">
+                        <div class="modal-close">×</div>
+                        <h4>世界は腸を中心にまわってる</h4>
+                        <div class="detail-img comic">
+                          <a href="./img/comic-01.webp" target="_blank"><img src="./img/comic-01.webp" alt="コミックの画像"></a>
+                          <p>自身の体験を元にしたギャグエッセイコミックです。コマ割りはシンプルにして読みやすくしながら、絵のタッチにバラエティーを持たせることで飽きさせないような工夫をしています。<br>※ツール：原稿用紙、ペン、Photoshop</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- c-05 -->
+            <li class="modal-open" data-target="modal-c-05">
+              <img src="./img/comic-05.webp" alt="コミックの画像">
+            </li>
+            <div id="modal-c-05" class="modal-container">
+              <div class="modal-body">
+                <div class="modal-content">
+                  <div id="c-05">
+                    <div class="modal-content">
+                      <div class="modal-inner">
+                        <div class="modal-close">×</div>
+                        <h4>世界は腸を中心にまわってる</h4>
+                        <div class="detail-img comic">
+                          <a href="./img/comic-05.webp" target="_blank"><img src="./img/comic-05.webp" alt="コミックの画像"></a>
+                          <p>カラーリングしたページです。Photoshopでの作業では、よく用いる色などをCCライブラリに記録したり、バッチ処理の機能を使って作業の効率化をしました。<br>※ツール：原稿用紙、ペン、Photoshop</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </ul>
+
+
+          <h3 id="hara-meo">#腹ヨワ<ruby>夫婦<rt>めおと</rt></ruby>日和</h3>
+          <ul class="grid-4">
+            <!-- c-02 -->
+            <li class="modal-open" data-target="modal-c-02">
+              <img src="./img/comic-02.webp" alt="コミックの画像">
+            </li>
+            <div id="modal-c-02" class="modal-container">
+              <div class="modal-body">
+                <div class="modal-content">
+                  <div id="c-02">
+                    <div class="modal-content">
+                      <div class="modal-inner">
+                        <div class="modal-close">×</div>
+                        <h4>腹ヨワ夫婦日和</h4>
+                        <div class="detail-img comic">
+                          <a href="./img/comic-02.webp" target="_blank"><img src="./img/comic-02.webp" alt="コミックの画像"></a>
+                          <p>自身の体験を元にしたギャグエッセイコミックです。<br>※ツール：原稿用紙、ペン、Photoshop</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- c-03 -->
+            <li class="modal-open" data-target="modal-c-03">
+              <img src="./img/comic-03.webp" alt="コミックの画像">
+            </li>
+            <div id="modal-c-03" class="modal-container">
+              <div class="modal-body">
+                <div class="modal-content">
+                  <div id="c-03">
+                    <div class="modal-content">
+                      <div class="modal-inner">
+                        <div class="modal-close">×</div>
+                        <h4>腹ヨワ夫婦日和</h4>
+                        <div class="detail-img comic">
+                          <a href="./img/comic-03.webp" target="_blank"><img src="./img/comic-03.webp" alt="コミックの画像"></a>
+                          <p>自身の体験を元にしたギャグエッセイコミックです。<br>※ツール：原稿用紙、ペン、Photoshop</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- c-04 -->
+            <li class="modal-open" data-target="modal-c-04">
+              <img src="./img/comic-04.webp" alt="コミックの画像">
+            </li>
+            <div id="modal-c-04" class="modal-container">
+              <div class="modal-body">
+                <div class="modal-content">
+                  <div id="c-04">
+                    <div class="modal-content">
+                      <div class="modal-inner">
+                        <div class="modal-close">×</div>
+                        <h4>腹ヨワ夫婦日和</h4>
+                        <div class="detail-img comic">
+                          <a href="./img/comic-04.webp" target="_blank"><img src="./img/comic-04.webp" alt="コミックの画像"></a>
+                          <p>4コマでは絵のタッチをよりシンプルにして読みやすくしています。<br>※ツール：Clip Studio</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </ul>
+        </div>
+    </section>
+
+    <!-- Video -->
+    <section id="video" class="section container">
+
+      <h2>#Video</h2>
+      <p class="section-detail">Premire ProやAfter Effectsを用いた動画です。</p>
+
+      <div class="contents-wrap">
+      <h3 id="digest">＃ダイジェスト動画</h3>
+
+        <div class="contents">
+          <div class="video-wrap">
+            <!-- flex -->
+            <div class="youtube">
+              <iframe src="https://www.youtube-nocookie.com/embed/q1VAItAY1so?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            <div class="video-caption">
+              <a href="https://youtube.com/playlist?list=PLJxDV2l-CpZMYzAuJgIqUgYIema5m1hjx" class="yotube-playlist">YouTubeチャンネルはこちら</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Profile -->
+    <section id="profile" class="section container">
+
+      <h2>#Profile</h2>
+
+      <div class="contents-wrap">
+        <div class="contents">
+          <div class="profile"><!-- flex -->
+            <div class="prf-img">
+              <img src="./img/profile.jpg" alt="">
+            </div>
+            <div class="prf-detail">
+              <h3 id="prf-prf">#プロフィール</h3>
+              <dl>
+                <dt>生年月日</dt>
+                <dd>1989年5月4日</dd>
+                <dt>出身地</dt>
+                <dd>東京</dd>
+                <dt>所有資格</dt>
+                <dd>教員免許（中・高美術）、色彩検定3級、漢字検定2級、普通自動車運転免許</dd>
+                <dt>座右の銘</dt>
+                <dd>武器は戦いながら拾え</dd>
+                <dt>マイブーム</dt>
+                <dd>怪談を聞くこと</dd>
+              </dl>
+
+              <h3 id="career">#経歴</h3>
+              <dl>
+                <dt>2012年</dt>
+                <dd>女子美術大学 芸術学部 絵画学科 日本画専攻 卒業</dd>
+                <dt>2012〜2017年</dt>
+                <dd>都立高校の美術科講師を勤める</dd>
+                <dt>2017〜2023年</dt>
+                <dd>区立中学校の美術教諭を勤める</dd>
+                <dt>2023年3月</dt>
+                <dd>区立中学校を退職</dd>
+                <dt>2023年5月〜7月</dt>
+                <dd>フェリカテクニカルアカデミー <span class="br"><br></span>「Web・スマホサイトデザイン科」修了</dd>
+              </dl>
+
+            </div>
+          </div>
+          <h3 id="skill">#Skill</h3>
+          <ul class="prf-grid">
+            <li><!-- lesponsive-flex -->
+              <img src="./img/icon-html.webp" alt="">
+              <div class="skill-detail">
+                <p>Webサイトを一から構築するHTMLコーディングが可能です。レスポンシブサイトも制作できます。</p>
+              </div>
+            </li>
+            <li>
+              <img src="./img/icon-css.webp" alt="">
+              <div class="skill-detail">
+                <p>Webサイトを一から構築するCSSコーディングが可能です。レスポンシブサイトも制作できます。</p>
+              </div>
+            </li>
+            <li>
+              <img src="./img/icon-jquery.webp" alt="">
+              <div class="skill-detail">
+                <p>スライダー、フェードイン・アウト、マウスオーバー効果、ハンバーガーメニューなどの機能のカスタマイズが可能です。</p>
+              </div>
+            </li>
+            <li>
+              <img src="./img/icon-wordpress.webp" alt="">
+              <div class="skill-detail">
+                <p>基本的な操作や、既存のWordPressテーマのカスタマイズをすることができます。WordPressを用いたブログ運営経験があります。</p>
+              </div>
+            </li>
+            <li>
+              <img src="./img/icon-word.webp" alt="">
+              <div class="skill-detail">
+                <p>ブラインドタッチで社内外文書作成や資料の作成ができます。</p>
+              </div>
+            </li>
+            <li>
+              <img src="./img/icon-excel.webp" alt="">
+              <div class="skill-detail">
+                <p>関数を用いた表作成、VLOOKUPやIF関数を使用したデータ集計ができます。</p>
+              </div>
+            </li>
+            <li>
+              <img src="./img/icon-powerpoint.webp" alt="">
+              <div class="skill-detail">
+                <p>音楽や動画を挿入したプレゼンテーション資料が作成できます。</p>
+              </div>
+            </li>
+            <li>
+              <img src="./img/icon-photoshop.webp" alt="">
+              <div class="skill-detail">
+                <p>画像の色調補正、レタッチ、合成、バナー制作などができます。</p>
+              </div>
+            </li>
+            <li>
+              <img src="./img/icon-illustlator.webp" alt="">
+              <div class="skill-detail">
+                <p>ロゴ制作、パターン制作、キャラクターなどのイラスト制作、フライヤー制作などができます。</p>
+              </div>
+            </li>
+            <li>
+              <img src="./img/icon-premirepro.webp" alt="">
+              <div class="skill-detail">
+                <p>スライドショーやVlog用の動画制作が可能です。また<a href="https://motionarray.com/" target="_blank">Motion Array</a>のテンプレートの使用が可能です。</p>
+              </div>
+            </li>
+            <li>
+              <img src="./img/icon-after-effects.webp" alt="">
+              <div class="skill-detail">
+                <p>モーショングラフ、ロトブラシによる合成、3Dトラッキングなどの機能が使え、<a href="https://motionarray.com/" target="_blank">Motion Array</a>のテンプレートの使用が可能です。</p>
+              </div>
+            </li>
+            <li>
+              <img src="./img/icon-vscode.webp" alt="">
+              <div class="skill-detail">
+                <p>エメットを用いて効率的にコーディングすることができます。
+                </p>
+              </div>
+            </li>
+            <li>
+              <img src="./img/icon-figma.webp" alt="">
+              <div class="skill-detail">
+                <p>Webデザインのワイヤーフレーム、カンプ制作に加え、プロトタイプビューでのリンクやアニメーション表現が可能です。</p>
+              </div>
+            </li>
+            <li>
+              <img src="./img/icon-github.webp" alt="">
+              <div class="skill-detail">
+                <p>プライベートリポジトリ内でのWebサイト制作経験があります。</p>
+              </div>
+            </li>
+
+          </ul>
+          <div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section container">
+
+      <h2>#Contact</h2>
+      <p class="section-detail">説明テキスト</p>
+
+      <div class="form-wrap">
+        <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeXzk8g0s8CeuLdev3j7NvfPNxmoXodL5kOwwl7wufQUuEmlQ/formResponse" method="POST" id="mG61Hd" target="hidden_iframe" onsubmit="submitted=true" ;>
+          <dl>
+            <dt>お名前</dt>
+            <dd><input type="text" name="entry.738952324" placeholder="Your Name" required></dd>
+            <dt>メールアドレス</dt>
+            <dd><input type="email" name="entry.171207602" placeholder="your-email@co.com" required></dd>
+            <dt>メッセージ</dt>
+            <dd><textarea name="entry.746181458" cols="30" rows="10" placeholder="Message"></textarea></dd>
+            <dt>ここに平仮名で「よあけ」と入力してください</dt>
+            <dd><input type="text" name="entry.774040820" required></dd>
+
+          </dl>
+          <p><input type="submit" value="送信"></p>
+
+          <script>
+            let submitted = false;
+          </script>
+
+          <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){window.location='thanks.html';}"></iframe>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container section footer-bg">
+
+      <div class="footer-logo">
+        <a href="#body"><img src="./img/logo406x226.png" alt="logo"></a>
+      </div>
+
+      <div class="contents footer">
+        <!-- grid/3colmns -->
+        <ul class="grid-3 footer">
+          <li class="footer-content">
+            <h3><a href="#webdesign">#Web Design</a></h3>
+            <ul>
+              <li><a href="#web-site">#Web サイト</a></li>
+              <li><a href="#web-comp">#Web カンプ</a></li>
+              <li><a href="#web-item">#Web デザインアイテム</a></li>
+            </ul>
+          </li>
+          <li class="footer-content">
+            <h3><a href="#graphic">#Graphic</a></h3>
+            <ul>
+              <li><a href="#recall-card">#歯科医院のリコールカード</a></li>
+              <li><a href="#clinic-card">#歯科医院の診察券</a></li>
+              <li><a href="#nyc">#年賀状</a></li>
+              <li><a href="#line-stamp">#LINEスタンプ、絵文字</a></li>
+            </ul>
+          </li>
+          <li class="footer-content">
+            <h3><a href="#comic">#Comic</a></h3>
+            <ul>
+              <li><a href="#seka-chou">#世界は腸を中心にまわってる</a></li>
+              <li><a href="#hara-meo">#腹ヨワ夫婦日和</a></li>
+            </ul>
+          </li>
+          <li class="footer-content">
+            <h3><a href="#video">#Video</a></h3>
+            <ul>
+              <li><a href="#digest">#ダイジェスト動画</a></li>
+            </ul>
+          </li>
+          <li class="footer-content">
+            <h3><a href="#profile">#Profile</a></h3>
+            <ul>
+              <li><a href="#prf-prf">#プロフィール</a></li>
+              <li><a href="#career">#経歴</a></li>
+              <li><a href="#skill">#スキル</a></li>
+            </ul>
+          </li>
+          <li class="footer-content">
+            <h3><a href="#contact">#Contact</a></h3>
+            <ul>
+              <li><a href="#">#コンタクトフォーム</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <p><small>©2023 Nana Taira</small></p>
+  </footer>
+
+  <script src="./js/main.js"></script>
+  <!-- test -->
+
+
+</body>
+</html>
