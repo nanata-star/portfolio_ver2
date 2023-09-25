@@ -281,7 +281,7 @@ nav
 	color: var(--color5);
 	display: block;
 	letter-spacing: 0.1rem;
-	padding: 10px 15px;
+	padding: 10px 35px;
 	margin-top: 0px;
 	margin-bottom: 80px;
 	font-weight: 600;
@@ -292,10 +292,10 @@ nav
 .section h2::before {
 	content: "";
 	display: block;
-	width: 50px;
-	height: 200px;
-	top: -80px;
-	left: -65px;
+	width: 20px;
+	height: 100%;
+	top: 0px;
+	left: 0px;
 	position: absolute;
 	background-color: var(--color5);
 }
@@ -567,6 +567,7 @@ Profileセクション
 	display: flex;
 	flex-direction: row-reverse;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .profile h4 {
@@ -576,7 +577,6 @@ Profileセクション
 
 .prf-img {
 	width: 48%;
-	margin-top: 60px;
 }
 
 .prf-detail {
