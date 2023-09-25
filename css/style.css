@@ -205,21 +205,21 @@ nav
 	display: grid;
 	grid-template-columns: repeat(2,1fr);
 	gap: 20px;
-	margin-bottom: 70px;
+	margin-bottom: 20px;
 }
 
 .grid-3 {
 	display: grid;
 	grid-template-columns: repeat(3,1fr);
 	gap: 10px 10px;
-	margin-bottom: 70px;
+	margin-bottom: 10px;
 }
 
 .grid-4 {
 	display: grid;
 	grid-template-columns: repeat(4,1fr);
 	gap: 10px 10px;
-	margin-bottom: 70px;
+	margin-bottom: 10px;
 }
 
 .modal-open, .non-modal {
@@ -346,6 +346,7 @@ nav
 .section h3 {
 	color: var(--color5);
 	font-size: var(--h3-fontSize);
+	margin-top: 70px;
 	margin-bottom: 20px;
 }
 
@@ -568,6 +569,10 @@ Profileセクション
 	flex-direction: row-reverse;
 	justify-content: space-between;
 	align-items: center;
+}
+
+.profile h3 {
+	margin-top: 0;
 }
 
 .profile h4 {
