@@ -107,6 +107,20 @@ $(function(){
     $('#wi-03').load('./ajax-pages/webdesign/wi-03.txt');
     $('#wi-04').load('./ajax-pages/webdesign/wi-04.txt');
     $('#wi-05').load('./ajax-pages/webdesign/wi-05.txt');
+    $('#wi-06').load('./ajax-pages/webdesign/wi-06.txt');
+    $('#wi-07').load('./ajax-pages/webdesign/wi-07.txt');
+    $('#wi-08').load('./ajax-pages/webdesign/wi-08.txt');
+    $('#wi-09').load('./ajax-pages/webdesign/wi-09.txt');
+    $('#wi-10').load('./ajax-pages/webdesign/wi-10.txt');
+    $('#wi-11').load('./ajax-pages/webdesign/wi-11.txt');
+    $('#wi-12').load('./ajax-pages/webdesign/wi-12.txt');
+    $('#wi-13').load('./ajax-pages/webdesign/wi-13.txt');
+    $('#wi-14').load('./ajax-pages/webdesign/wi-14.txt');
+    $('#wi-15').load('./ajax-pages/webdesign/wi-15.txt');
+    $('#wi-16').load('./ajax-pages/webdesign/wi-16.txt');
+    $('#wi-17').load('./ajax-pages/webdesign/wi-17.txt');
+    $('#wi-18').load('./ajax-pages/webdesign/wi-18.txt');
+    $('#wi-19').load('./ajax-pages/webdesign/wi-19.txt');
     // gd
     $('#gd-01').load('./ajax-pages/graphic/gd-01.txt');
     $('#gd-02').load('./ajax-pages/graphic/gd-02.txt');

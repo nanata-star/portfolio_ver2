@@ -1,7 +1,7 @@
   <h4>作品タイトル</h4>
 
    <div class="detail-img graphic">
-                        <a href="./img/wagokoro-banner01.png" target="_blank"><img src="./img/wagokoro-banner01.png" alt=""></a>
+                        <a href="./img/tea-banner02.png" target="_blank"><img src="./img/tea-banner02.png" alt=""></a>
                         <p>背景の赤とウサギの白のコントラストが美しく、お正月のめでたさを感じられるデザインです。</p>
                       </div>
 </div>
