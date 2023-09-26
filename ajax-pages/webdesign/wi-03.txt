@@ -2,6 +2,6 @@
 
    <div class="detail-img graphic">
                         <a href="./img/wagokoro-banner03.png" target="_blank"><img src="./img/wagokoro-banner03.png" alt=""></a>
-                        <p>背景の赤とウサギの白のコントラストが美しく、お正月のめでたさを感じられるデザインです。</p>
+                        <p>和菓子屋「和心」のキャンペーン告知バナー<br>制作時間：20分</p>
                       </div>
 </div>

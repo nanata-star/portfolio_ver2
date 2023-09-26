@@ -2,6 +2,6 @@
 
    <div class="detail-img graphic">
                         <a href="./img/banner_06.webp" target="_blank"><img src="./img/banner_06.webp" alt=""></a>
-                        <p>背景の赤とウサギの白のコントラストが美しく、お正月のめでたさを感じられるデザインです。</p>
+                        <p>ハンバーガーショップの限定販売商品告知のバナー<br>制作時間：40分</p>
                       </div>
 </div>

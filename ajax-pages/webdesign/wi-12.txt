@@ -2,6 +2,6 @@
 
    <div class="detail-img graphic">
                         <a href="./img/banner_08.webp" target="_blank"><img src="./img/banner_08.webp" alt=""></a>
-                        <p>背景の赤とウサギの白のコントラストが美しく、お正月のめでたさを感じられるデザインです。</p>
+                        <p>旅行会社の商品周知バナー<br>制作時間：50分</p>
                       </div>
 </div>

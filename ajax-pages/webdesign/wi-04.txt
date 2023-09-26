@@ -2,6 +2,6 @@
 
    <div class="detail-img graphic">
                         <a href="./img/tea-banner01.png" target="_blank"><img src="./img/tea-banner01.png" alt=""></a>
-                        <p>背景の赤とウサギの白のコントラストが美しく、お正月のめでたさを感じられるデザインです。</p>
+                        <p>プログラミングスクールの周知バナー<br>制作時間：40分</p>
                       </div>
 </div>
