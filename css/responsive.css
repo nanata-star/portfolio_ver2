@@ -78,7 +78,7 @@ max-width:950px,footer-contentsのみ
 
 .hm-nav a {
 	display: inline-block;
-	margin: 0px 0 60px 0px;
+	margin: 0px 0 20px 0px;
 	font-size: var(--h4-fontSize);
 	color: var(--color4);
 	letter-spacing: var(--letterspacing);
@@ -193,7 +193,7 @@ max-width:950px,footer-contentsのみ
 	.bg-video-sp {
 	width: 100%;
 	height: 100vh;
-	background-image: url(../img/hero-img.webp);
+	/* background-image: url(../img/hero-img.webp); */
 	background-position: center;
 	}
 
